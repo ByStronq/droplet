@@ -1,3 +1,3 @@
 # droplet
 Droplet is a content management system.
-![](./droplet.svg = 250x250)
+![](./droplet.svg){:class="img-responsive"}
