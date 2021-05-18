@@ -1,3 +1,3 @@
 # droplet
 Droplet is a content management system.
-![](./droplet.svg)
+![](./droplet.svg = 250x250)
