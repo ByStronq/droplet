@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <Folder Include="CrossCuttingConcerns\Validation\" />
+    <Folder Include="Utilities\Interceptors\" />
   </ItemGroup>
 
 </Project>
