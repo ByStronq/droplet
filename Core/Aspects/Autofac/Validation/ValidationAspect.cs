@@ -5,7 +5,7 @@ using FluentValidation;
 using System;
 using System.Linq;
 
-namespace Core.Aspects.Validation
+namespace Core.Aspects.Autofac.Validation
 {
     public class ValidationAspect : MethodInterception
     {
