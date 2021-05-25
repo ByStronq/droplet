@@ -26,7 +26,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("add")]
+        [HttpPost("add")]
         public IActionResult Add(TermTaxonomy termTaxonomy)
         {
             var result = _termTaxonomyService.Add(termTaxonomy);
@@ -37,7 +37,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("update")]
+        [HttpPost("update")]
         public IActionResult Update(TermTaxonomy termTaxonomy)
         {
             var result = _termTaxonomyService.Update(termTaxonomy);

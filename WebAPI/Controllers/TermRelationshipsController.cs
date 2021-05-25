@@ -26,7 +26,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("add")]
+        [HttpPost("add")]
         public IActionResult Add(TermRelationship termRelationship)
         {
             var result = _termRelationshipService.Add(termRelationship);
@@ -37,7 +37,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("update")]
+        [HttpPost("update")]
         public IActionResult Update(TermRelationship termRelationship)
         {
             var result = _termRelationshipService.Update(termRelationship);
